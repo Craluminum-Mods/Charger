@@ -1,0 +1,56 @@
+{
+    "code": "charger",
+    "class": "Charger",
+    "entityClass": "BECharger",
+    "shape": { "base": "block/charger1" },
+    "blockmaterial": "Metal",
+    "creativeinventory": { "general": ["*"], "mechanics": ["*"] },
+    "lightAbsorption": 0,
+    "sidesolid": { "all": false },
+    "sideopaque": { "all": false },
+    "textures": {
+        "0": { "base": "game:block/creative/col67" },
+        "1": { "base": "game:block/creative/col73" },
+        "basecube": { "base": "game:block/creative/col67", "overlays": ["overlay/lightning"] },
+        "black": { "base": "game:block/creative/col64" },
+        "lightgray": { "base": "game:block/creative/col73" },
+        "red": { "base": "game:block/creative/col0" },
+        "green": { "base": "game:block/creative/col13" }
+    },
+    "sounds": {
+        "walk": "game:walk/stone"
+    },
+    "heldTpIdleAnimation": "holdbothhandslarge",
+    "heldTpUseAnimation": "twohandplaceblock",
+    "collisionBox": { "x1": 0, "y1": 0, "z1": 0, "x2": 1, "y2": 0.5, "z2": 1 },
+    "selectionBoxes": [
+        { "__comment": "Base", "x1": 0.1875, "y1": 0, "z1": 0.1875, "x2": 0.8125, "y2": 0.5, "z2": 0.8125 },
+        { "__comment": "PowerButton", "x1": 0.25, "y1": 0, "z1": 0.9375, "x2": 0.562, "y2": 0.125, "z2": 0.9559 },
+        { "__comment": "DischargeSlot__1", "x1": 0.25, "y1": 0.125, "z1": 0.8125, "x2": 0.375, "y2": 0.3876, "z2": 0.9375 },
+        { "__comment": "ChargeSlot__1", "x1": 0.375, "y1": 0.125, "z1": 0.8125, "x2": 0.5, "y2": 0.3876, "z2": 0.9375 },
+        { "__comment": "DischargeSlot__2", "x1": 0.5, "y1": 0.125, "z1": 0.8125, "x2": 0.625, "y2": 0.3876, "z2": 0.9375 },
+        { "__comment": "ChargeSlot__2", "x1": 0.625, "y1": 0.125, "z1": 0.8125, "x2": 0.75, "y2": 0.3876, "z2": 0.9375 },
+        { "__comment": "DischargeSlot__3", "x1": 0.8125, "y1": 0.125, "z1": 0.625, "x2": 0.9375, "y2": 0.3876, "z2": 0.75 },
+        { "__comment": "ChargeSlot__3", "x1": 0.8125, "y1": 0.125, "z1": 0.625, "x2": 0.9375, "y2": 0.3876, "z2": 0.5 },
+        { "__comment": "DischargeSlot__4", "x1": 0.8125, "y1": 0.125, "z1": 0.375, "x2": 0.9375, "y2": 0.3876, "z2": 0.5 },
+        { "__comment": "ChargeSlot__4", "x1": 0.8125, "y1": 0.125, "z1": 0.375, "x2": 0.9375, "y2": 0.3876, "z2": 0.25 },
+        { "__comment": "DischargeSlot__5", "x1": 0.625, "y1": 0.125, "z1": 0.0625, "x2": 0.75, "y2": 0.3876, "z2": 0.1875 },
+        { "__comment": "ChargeSlot__5", "x1": 0.625, "y1": 0.125, "z1": 0.0625, "x2": 0.5, "y2": 0.3876, "z2": 0.1875 },
+        { "__comment": "DischargeSlot__6", "x1": 0.5, "y1": 0.125, "z1": 0.0625, "x2": 0.375, "y2": 0.3876, "z2": 0.1875 },
+        { "__comment": "ChargeSlot__6", "x1": 0.375, "y1": 0.125, "z1": 0.0625, "x2": 0.25, "y2": 0.3876, "z2": 0.1875 },
+        { "__comment": "DischargeSlot__7", "x1": 0.0625, "y1": 0.125, "z1": 0.25, "x2": 0.1875, "y2": 0.3876, "z2": 0.3744 },
+        { "__comment": "ChargeSlot__7", "x1": 0.0625, "y1": 0.125, "z1": 0.375, "x2": 0.1875, "y2": 0.3876, "z2": 0.4994 },
+        { "__comment": "DischargeSlot__8", "x1": 0.0625, "y1": 0.125, "z1": 0.625, "x2": 0.1875, "y2": 0.3876, "z2": 0.4994 },
+        { "__comment": "ChargeSlot__8", "x1": 0.0625, "y1": 0.125, "z1": 0.625, "x2": 0.1875, "y2": 0.3876, "z2": 0.7494 }
+    ],
+    "tpHandTransform": {
+        "translation": { "x": -1.23, "y": -0.91, "z": -0.8 },
+        "rotation": { "x": -2, "y": 25, "z": -78 },
+        "scale": 0.4
+    },
+    "guiTransform": {
+        "rotation": { "x": -30, "y": -45, "z": 0 },
+        "origin": { "x": 0.5, "y": 0.3, "z": 0.5 },
+        "scale": 1.5
+    }
+}

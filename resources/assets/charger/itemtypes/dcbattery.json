@@ -1,0 +1,64 @@
+{
+    "code": "dcbattery",
+    "maxStackSize": 1,
+    "shape": { "base": "item/battery1" },
+    "attributes": {
+        "shelvable": true,
+        "displaycaseable": true,
+        "groundStorageTransform": {
+            "origin": { "x": 0.5, "y": 0, "z": 0.5 },
+            "scale": 0.7
+        },
+        "onDisplayTransform": {
+            "translation": { "x": 0, "y": -0.17, "z": 0 },
+            "scale": 0.65
+        },
+        "onChargerTransform": {
+            "scale": 0.45
+        }
+    },
+    "behaviors": [
+        {
+            "name": "GroundStorable",
+            "properties": {
+                "layout": "Quadrants"
+            }
+        },
+        { "name": "DCBattery" }
+    ],
+    "textures": {
+        "battery": { "base": "item/battery" },
+        "other": { "base": "game:block/creative/col72" }
+    },
+    "creativeinventoryStacks": [
+        {
+            "tabs": ["general", "items", "mechanics"],
+            "stacks": [
+                { "type": "item", "code": "dcbattery", "attributes": { "dcb_capacity": 216.0, "dcb_charge": 216.0 } },
+                { "type": "item", "code": "dcbattery", "attributes": { "dcb_capacity": 216.0, "dcb_charge": 0 } },
+                { "type": "item", "code": "dcbattery", "attributes": { "dcb_capacity": 1000000.0, "dcb_charge": 0 } }
+            ]
+        }
+    ],
+    "guiTransform": {
+        "rotate": true,
+        "translation": { "x": 3, "y": 0, "z": 0 },
+        "rotation": { "x": -23, "y": -45, "z": -156 },
+        "origin": { "x": 0.5, "y": 0.5, "z": 0.5 },
+        "scale": 1.8
+    },
+    "fpHandTransform": {
+        "origin": { "x": 0.5, "y": 0.3, "z": 0.5 }
+    },
+    "tpHandTransform": {
+        "translation": { "x": -2.6, "y": -2, "z": -2 },
+        "rotation": { "x": 0, "y": 180, "z": 106 },
+        "scale": 0.25
+    },
+    "groundTransform": {
+        "translation": { "x": 0, "y": 0, "z": 0 },
+        "rotation": { "x": 90, "y": 0, "z": 0 },
+        "origin": { "x": 0.5, "y": 0.5, "z": 0.7 },
+        "scale": 2
+    }
+}

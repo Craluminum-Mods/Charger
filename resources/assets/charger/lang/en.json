@@ -1,0 +1,17 @@
+{
+    "block-charger": "Charger",
+    "blockdesc-charger": "\n8 slots for discharging\n8 slots for charging",
+    "block-solarpanel": "Solar Panel",
+    "blockdesc-solarpanel": "\n\n25 slots for solar cells\n1 slot for battery/accumulator",
+    "blockhelp-charger-addToChargingSlot": "Add: To charging slot",
+    "blockhelp-charger-addToDischargingSlot": "Add: To discharging slot",
+    "blockhelp-charger-removeFromChargingSlot": "Remove: From charging slot",
+    "blockhelp-charger-removeFromDischargingSlot": "Remove: From discharging slot",
+    "description-chargeAndCapacity": "Charge: {0}/{1}",
+    "description-efficiency": "Efficiency: {0}",
+    "item-dcbattery": "DC battery",
+    "item-solarcell": "Solar cell",
+    "slot-charging": "Charging Slot",
+    "slot-discharging": "Discharging Slot",
+    "slot-solarcell": "Solar Cell Slot"
+}

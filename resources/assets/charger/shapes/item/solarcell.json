@@ -1,0 +1,29 @@
+{
+	"editor": {
+		"allAngles": false,
+		"entityTextureMode": false
+	},
+	"textureWidth": 16,
+	"textureHeight": 16,
+	"textureSizes": {
+	},
+	"textures": {
+		"white": "C:/Users/craluminum/AppData/Roaming/Vintagestory/assets/creative/textures/block/creative/col79",
+		"solarcell": "D:/VSCode/Repos/Modding_VintageStory/Charger/resources/assets/charger/textures/item/solarcell"
+	},
+	"elements": [
+		{
+			"name": "tile0",
+			"from": [ 4.25, 0.0, 4.25 ], 
+			"to": [ 11.75, 0.15, 11.75 ], 
+			"rotationOrigin": [ 8.0, 0.0, 8.0 ],
+			"faces": {
+				"north": { "texture": "#white", "uv": [ 3.0, 14.0, 10.5, 14.5 ], "windMode": [-1,-1,-1,-1], "reflectiveMode": 3 },
+				"east": { "texture": "#white", "uv": [ 5.5, 8.0, 13.0, 8.5 ] },
+				"south": { "texture": "#white", "uv": [ 3.5, 11.0, 11.0, 11.5 ] },
+				"west": { "texture": "#white", "uv": [ 4.0, 8.5, 11.5, 9.0 ] },
+				"up": { "texture": "#solarcell", "uv": [ 0.0, 0.0, 16.0, 16.0 ], "autoUv": false },
+				"down": { "texture": "#white", "uv": [ 3.0, 1.5, 10.5, 9.0 ] }
+			}
+		}
+	]}
